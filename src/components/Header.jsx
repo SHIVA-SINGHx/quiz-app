@@ -6,7 +6,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-orange-100 text-black shadow-md">
+    <header className="bg-gray-900 text-white">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo / Brand */}
         <Link to="/" className="text-2xl font-bold">
